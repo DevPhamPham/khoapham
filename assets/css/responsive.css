@@ -1,0 +1,45 @@
+
+/*                media queries             */
+/* 
+    PC: >=1024px
+    Tablet: >=740px && <1024px
+    Mobile: <740px
+ */
+        /* break point */
+
+ /*  pc */
+ @media (min-width: 1024px){
+    #header .mobile-menu-bars{
+        display: none;
+    }
+}
+
+/* Tablet */
+@media (min-width: 740px) and (max-width:1023px){
+   .content-section{
+       padding: 64px 16px !important;
+   }
+
+   .list-tour .list-item-section{
+       width: 230px;
+   }
+}
+
+/* mobile */
+@media (max-width: 739px){
+    #slider .text-content{
+        display: none;
+    }
+
+    #nav>li{
+        display: block !important;
+    } 
+
+    #header .search-button{
+        display: none;
+    }
+
+    #header{
+        padding-bottom: 10px;
+    }
+}
